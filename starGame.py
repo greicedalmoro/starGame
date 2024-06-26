@@ -93,11 +93,11 @@ def main():
                 # Ctrl+S para salvar
                 if evento.mod & pygame.KMOD_CTRL and evento.key == pygame.K_s:
                     salvar_marcacoes()
-                # Ctrl+L para carregar
-                elif evento.mod & pygame.KMOD_CTRL and evento.key == pygame.K_l:
+                # Cotrl+C para carregar
+                elif evento.mod & pygame.KMOD_CTRL and evento.key == pygame.K_c:
                     estrelas, nomes_estrelas = carregar_marcacoes()
-                # Ctrl+D para excluir
-                elif evento.mod & pygame.KMOD_CTRL and evento.key == pygame.K_d:
+                # Ctrl+E para excluir
+                elif evento.mod & pygame.KMOD_CTRL and evento.key == pygame.K_e:
                     excluir_marcacoes()
                 elif evento.key == pygame.K_ESCAPE:
                     salvar_marcacoes()
