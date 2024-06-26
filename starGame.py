@@ -68,9 +68,9 @@ def desenhar_info_controles():
     info_textos = [
         "Controles:",
         "Salvar Marcações: Ctrl+S",
-        "Carregar Marcações: Ctrl+L",
-        "Excluir Marcações: Ctrl+D",
-        "Fechar Aplicação: ESC"
+        "Carregar Marcações: Ctrl+C",
+        "Excluir Marcações: Ctrl+E",
+        "Sair: ESC"
     ]
     for i, texto in enumerate(info_textos):
         texto_renderizado = fonte_info.render(texto, True, branco)
